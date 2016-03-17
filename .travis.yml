@@ -5,3 +5,10 @@ install:
   - pip install -r requirements.txt
 script:
   - python manage.py test
+notifications:
+  webhooks:
+    urls:
+      - http://webhook-proxy-examples.f477.osevg.openshiftapps.com/travis-ci/api.osevg.openshift.com/examples/django-hello-world-v1
+    on_success: always
+    on_failure: never
+    on_start: never

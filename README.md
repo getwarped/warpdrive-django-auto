@@ -8,7 +8,7 @@ This example can also be deployed using the default Python S2I builder in OpenSh
 
 ## Deployment to an OpenShift Cluster
 
-To deploy to an OpenShift cluster using the default Python S2I builder, you can use either the OpenShift web console, or the ``oc`` command line tool.
+To deploy to an OpenShift cluster using the default Python S2I builder provided by OpenShift, you can use either the OpenShift web console, or the ``oc`` command line tool.
 
 To install using the web console, select ``Add to project``, then enter ``python`` into the ``Filter by keyword`` search box. You can then select which version of Python you would like to use for the deployment. Enter the name ``django-auto`` for the application, enter the ``Git Repository URL`` of:
 
@@ -84,7 +84,7 @@ The ``warpdrive`` base S2I builder used here was ``grahamdumpleton/warp0-centos7
 * ``grahamdumpleton/warp0-debian8-python27``
 * ``grahamdumpleton/warp0-debian8-python35``
 
-The ``warp0`` designation in the name is to indicate that these are currently experimental builders and so subject to change. The first version of official builder names when made available carry the ``warp1`` moniker instead of ``warp0``. The number will be incremented if subsequent versions need to be released which are not fully compatible.
+The ``warp0`` designation in the name is to indicate that these are currently experimental builders and so subject to change. The first version of the official builder names when made available will carry the ``warp1`` moniker instead of ``warp0``. The number will be incremented if subsequent versions need to be released which are not fully compatible.
 
 
 

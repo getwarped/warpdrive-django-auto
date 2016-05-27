@@ -64,10 +64,11 @@ Alternatively, assign the application a different name. Be mindful that if you c
 
 For further examples of using ``warpdrive`` to deploy the same Django Hello World application see:
 
-* [warpdrive-django-shell](https://github.com/GrahamDumpleton/warpdrive-django-shell) - Django development server.
+* [warpdrive-django-django](https://github.com/GrahamDumpleton/warpdrive-django-shell) - Django development server.
 * [warpdrive-django-gunicorn](https://github.com/GrahamDumpleton/warpdrive-django-gunicorn) - Gunicorn WSGI server.
 * [warpdrive-django-uwsgi](https://github.com/GrahamDumpleton/warpdrive-django-uwsgi) - uWSGI WSGI server.
 * [warpdrive-django-waitress](https://github.com/GrahamDumpleton/warpdrive-django-waitress) - Waitress WSGI server.
+* [warpdrive-django-shell](https://github.com/GrahamDumpleton/warpdrive-django-shell) - Django development server (launched explicitly from a shell script).
 
 As above, for each of these examples use the command:
 
